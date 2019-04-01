@@ -13,5 +13,7 @@ Log4j 2.11 的版本還在實驗。
 
 [REF]：
 https://stackoverflow.com/questions/48104672/spring-boot-configure-log4j2-to-use-spring-boot-datasource
+
 http://smasue.github.io/log4j2-spring-database-appender
+
 http://www.andreagirardi.it/blog/how-to-use-spring-datasource-bean-as-data-source-for-log4j-2-jdbc-appender/
