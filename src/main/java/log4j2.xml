@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN" monitorInterval="30">
+    <!-- 輸出路徑 -->
+    <Properties>
+        <Property name="home">/logs</Property>
+    </Properties>
+
+    <Appenders>
+        <!-- Console 輸出 -->
+        <Console name="stdout" target="SYSTEM_OUT">
+            <PatternLayout pattern="%d %-5p %c - %m%n" />
+        </Console>
+    </Appenders>
+    <Loggers>
+        <Root level="INFO">
+            <AppenderRef ref="stdout" />
+        </Root>
+    </Loggers>
+</Configuration>
