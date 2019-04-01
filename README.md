@@ -1,6 +1,9 @@
 # SpringJPA_Log4J_H2_Example
 
-注意： Log4j 的版本需為 2.10 。 2.11 的版本還在實驗。
+注意：需安裝 H2 Database + Log4j 的版本需為 2.10 。 
+
+Log4j 2.11 的版本還在實驗。
+
 
 此 Demo 為利用 Spring 架構，透過 JPA 存取資料，並用 Log4j 把 log 記錄到 H2 db。
 
